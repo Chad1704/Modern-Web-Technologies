@@ -1,12 +1,11 @@
 {
-  "name": "advanced",
+  "name": "lab1",
   "version": "1.0.0",
   "description": "",
-  "main": "01.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node 02.js" 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
