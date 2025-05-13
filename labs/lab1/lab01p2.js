@@ -13,7 +13,9 @@ const server = http.createServer((req, res) => {
     //do something
 
     if(req.url == '/'){
-        res.end('Hello World!!!');
+        const home = fs.readFileSync('./html/index.html')
+
+        res.end(home);
     }
 
     else if(req.url == '/about'){
@@ -24,7 +26,9 @@ const server = http.createServer((req, res) => {
 
     }
     else if(req.url == '/contact'){
-        res.end('Hello To The Contact Page');
+        const contact = fs.readFileSync('./html/contact.html')
+
+        res.end(contact);
         
 
     }
