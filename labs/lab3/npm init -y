@@ -1,0 +1,7 @@
+Server Side
+npm init -y
+npm i express nodemon cors multer
+
+
+Client Side
+npm create vite@latest
